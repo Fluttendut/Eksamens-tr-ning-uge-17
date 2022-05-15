@@ -25,7 +25,7 @@ public class User implements Comparable<User>
         return age;
     }
 
-    public void skitse(User other){
+    public void compareNames(User other){
         //This will output what????
         this.name.compareTo(other.getName());
     }

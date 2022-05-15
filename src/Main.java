@@ -22,21 +22,25 @@ public class Main
     {
         Main prg = new Main();
         //prg.go();
+
         ArrayList<User> sortingNames = new ArrayList<User>();
         User firstUser = new User("Bob",10);
         User secondUser = new User("Ken",15);
         User thirdUser = new User("Lena",120);
         User fourthUser = new User("Karen",8);
-        User FifthUser = new User("Linda",65);
+        User fifthUser = new User("Linda",65);
         sortingNames.add(firstUser);
         sortingNames.add(secondUser);
         sortingNames.add(thirdUser);
         sortingNames.add(fourthUser);
-        sortingNames.add(firstUser);
+        sortingNames.add(fifthUser);
 
-        System.out.println(sortingNames);
+
+        //System.out.println(sortingNames);
         Collections.sort(sortingNames);
-        System.out.println(sortingNames);
+        //System.out.println(sortingNames);
+
+
 
     }
 }
